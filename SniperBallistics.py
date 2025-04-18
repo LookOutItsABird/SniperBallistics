@@ -1,6 +1,3 @@
-import numpy as np
-import scipy.optimize as opt
-import ast
 import math
 
 space = ""
@@ -84,3 +81,5 @@ def bullet_calculations(weapon, x, y):
         print(f"Input Variables: [x, y, v0] = [{x}, {y}, {v0}]")
         print(f"Sniper should aim rifle at {theta1_degrees} degrees (or {theta2_degrees} degrees if you're feeling lucky!)")
         print(space)
+
+sniper_ballistics()
