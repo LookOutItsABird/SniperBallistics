@@ -2,7 +2,9 @@ import math
 
 space = ""
 
-gun_selection = """Which firearm are you using?
+gun_selection = """
+
+Which firearm are you using?
     M24 Sniper Rifle            700m/s
     0.50 Caliber Barrett M82    800m/s
     Remington 700               900m/s
